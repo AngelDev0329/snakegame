@@ -1,0 +1,142 @@
+#gameCanvas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 6px double black;
+    animation: glowing 5s infinite;
+    margin-top: 125px;
+}
+
+@keyframes glowing {
+    0% { box-shadow: 0 0 -10px #c4a300; }
+    40% { box-shadow: 0 0 20px #c4a300; }
+    60% { box-shadow: 0 0 20px #c4a300; }
+    100% { box-shadow: 0 0 -10px #c4a300; }
+  }
+
+#score {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Press Start 2P', cursive;
+    animation: glowing1 1s infinite;
+}
+
+@keyframes glowing1 {
+    0% { text-shadow: 0 0 10px #fff; }
+    40% { text-shadow: 0 0 20px #fff; }
+    80% { text-shadow: 0 0 30px #fff; }
+    100% { text-shadow: 0 0 40px #fff; }
+    140% { text-shadow: 0 0 50px #fff; }
+    180% { text-shadow: 0 0 60px #fff; }
+    200% { text-shadow: 0 0 70px #fff; }
+  }
+  to {
+    200% { text-shadow: 0 0 20px #fff; }
+    180% { text-shadow: 0 0 30px #fff; }
+    140% { text-shadow: 0 0 40px #fff; }
+    100% { text-shadow: 0 0 50px #fff; }
+    80% { text-shadow: 0 0 60px #fff; }
+    40% { text-shadow: 0 0 70px #fff; }
+    0% { text-shadow: 0 0 80px #fff; }
+  }
+
+#btn {
+    /* position: absolute; */
+    display: block;
+    max-width: 300px;
+    margin-right: 25px;
+    margin: auto;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 25px; 
+    font-family: 'Codystar', cursive;
+    font-weight: bold;
+}
+
+#note {
+    color: white;
+    text-align: center;
+    font-family: arial;
+    font-size: 14px;
+    margin-top: 22px;
+}
+
+body {
+    background: url('https://i.imgur.com/5Oqepq8.png') no-repeat center fixed;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Codystar', cursive;
+    color: white;
+    animation: glowing2 1s infinite;
+}
+
+@keyframes glowing2 {
+    0% { text-shadow: 0 0 10px #fff; }
+    40% { text-shadow: 0 0 20px #fff; }
+    80% { text-shadow: 0 0 30px #e60073; }
+    100% { text-shadow: 0 0 40px #e60073; }
+    140% { text-shadow: 0 0 50px #e60073; }
+    180% { text-shadow: 0 0 60px #e60073; }
+    200% { text-shadow: 0 0 70px #e60073; }
+  }
+  to {
+    200% { text-shadow: 0 0 20px #fff; }
+    180% { text-shadow: 0 0 30px #ff4da6; }
+    140% { text-shadow: 0 0 40px #ff4da6; }
+    100% { text-shadow: 0 0 50px #ff4da6; }
+    80% { text-shadow: 0 0 60px #ff4da6; }
+    40% { text-shadow: 0 0 70px #ff4da6; }
+    0% { text-shadow: 0 0 80px #ff4da6; }
+  }
+
+#theme {
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 400px;
+    border: 6px double black;
+    /* position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 6px double black;
+    animation: glowing 5s infinite; */
+}
+
+  /*REEEEEEEEEEESPONSIVE*/
+
+@media (max-width: 800px) {
+    #body {
+      width: 100%;
+    }
+  }
+
+/* @media (min-width: 992px) {
+#body {
+    width: 100%;
+   }
+}
+
+@media (min-width: 1200px) {
+    #body {
+     width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    #body {
+        width: 100%;
+    }
+}
+
+@media (min-width: 600px) {
+    #body {
+        width: 100%;
+    }
+} */
