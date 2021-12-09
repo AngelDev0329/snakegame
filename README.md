@@ -12,7 +12,7 @@ For this application I built this entirely with the following:
 * [Canvas](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas)
 
 ## Author
-* [Kaitlyn Flynn](https://kaitlynflynn.com/)
+* [Angel Dev](https://github.com/AngelDev727)
 
 ## Features to Implement in the Future
 I plan to find a way to implement a leader board to track players high scores! 80's Arcade style where you enter your 3 initials. 
